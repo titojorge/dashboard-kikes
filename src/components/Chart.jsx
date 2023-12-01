@@ -1,9 +1,7 @@
 import React, {Component} from 'react';
 import ChartRow from './ChartRow';
 
-let tableRowsData = [    
-]
-
+let tableRowsData = []
 
 class Chart extends Component {
 
@@ -23,8 +21,6 @@ class Chart extends Component {
                 this.setState({
                     tableRowsData : data.products
                 })
-                console.log(this.state.tableRowsData);
-
             })
             .catch( error => console.log(error))
     }
