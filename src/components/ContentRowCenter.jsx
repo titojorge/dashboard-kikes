@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import LastMovieInDb from './LastMovieInDb';
-import GenresInDb from './GenresInDb';
+import LastProductInDb from './LastProductInDb';
+import CategoriesInDb from './CategoriesInDb';
 
 class ContentRowCenter extends Component{
     constructor(){
@@ -24,8 +24,8 @@ class ContentRowCenter extends Component{
     render(){
         return (
             <div className="row">
-                {/*<!-- Last Movie in DB -->*/}
-                <LastMovieInDb />
+                {/*<!-- Last Product in DB -->*/}
+                <LastProductInDb />
                 {/*<!-- End content row last movie in Data Base -->*/}
                 <div className="col-lg-6 mb-4">
                     <div className="card shadow mb-4">
@@ -35,7 +35,7 @@ class ContentRowCenter extends Component{
                             </h5>
                         </div>
                         { this.state.listCategories.map((categorie, i) => {
-                            return <GenresInDb {...categorie} key={i}/>
+                            return <CategoriesInDb {...categorie} key={i}/>
                         })}
                     </div>
                 </div>

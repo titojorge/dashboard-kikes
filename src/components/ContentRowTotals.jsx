@@ -26,7 +26,7 @@ let totalCategorias = {
 
 let cartProps = [totalProducts, totalUsers, totalCategorias];
 
-class ContentRowMovies extends Component{
+class ContentRowTotals extends Component{
     constructor(props){
         super(props)
         this.state = {
@@ -77,4 +77,4 @@ class ContentRowMovies extends Component{
     }
 }
 
-export default ContentRowMovies;
+export default ContentRowTotals;

@@ -1,6 +1,6 @@
 import React, {Component} from "react";
 
-function GenresInDb(props) {
+function CategoriesInDb(props) {
     return (
       <div className="card-body" >
         <div className="row" >
@@ -14,4 +14,4 @@ function GenresInDb(props) {
     );
 }
 
-export default GenresInDb;
+export default CategoriesInDb;

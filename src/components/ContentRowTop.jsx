@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import ContentRowCenter from './ContentRowCenter';
-import ContentRowMovies from './ContentRowMovies';
+import ContentRowTotals from './ContentRowTotals';
 import Chart from './Chart';
 
 function ContentRowTop(){
@@ -11,7 +11,7 @@ function ContentRowTop(){
 						<h1 className="h3 mb-0 text-gray-800">KIKE Dashboard</h1>
 					</div>
 					{/*<!-- Content Row Movies-->*/}
-					<ContentRowMovies />
+					<ContentRowTotals />
 					<ContentRowCenter />
 					<Chart />
 	

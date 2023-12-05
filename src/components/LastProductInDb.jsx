@@ -1,7 +1,6 @@
 import React, {Component} from 'react';
-import imagenFondo from '../../public/assets/images/kike-logo.png';
 
-class LastMovieInDb extends Component{
+class LastProductInDb extends Component{
     constructor(props){
         super(props)
         this.state = {
@@ -43,4 +42,4 @@ class LastMovieInDb extends Component{
     }
 }
 
-export default LastMovieInDb;
+export default LastProductInDb;
