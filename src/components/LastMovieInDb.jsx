@@ -30,9 +30,9 @@ class LastMovieInDb extends Component{
                     </div>
                     <div className="card-body">
                         <h3>{this.state.lastProduct.nombre}</h3>
-                        {/* <div className="text-center">
-                            <img className="img-fluid px-3 px-sm-4 mt-3 mb-4" style={{width: 40 +'rem'}} src={this.state.lastProduct.image} alt="ImagenProducto"/>
-                        </div> */}
+                        <div className="text-center">
+                            <img className="img-fluid px-3 px-sm-4 mt-3 mb-4" style={{width: 40 +'rem'}} src={`http://localhost:3000/images/productsImg/${this.state.lastProduct.image}`} alt="ImagenProducto"/>
+                        </div>
                         <p>{this.state.lastProduct.description}</p>
                         <p>Precio: {this.state.lastProduct.price}</p>
                         <p>Categoria Producto: {this.state.lastProduct.categories}</p>
